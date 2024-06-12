@@ -29,14 +29,26 @@ namespace ProyectoVictoria
             nodo lista1 = new nodo(1, lista2);
             nodo lista = new nodo(lista1);
 
-            eliminarLES(lista1, 4);
+            
 
+            nodo aux = lista;
+            Console.Write("Lista: ");
+            while (aux != null)
+            {
+                Console.Write(aux.dato + " ");
+                aux = aux.sig;
+            }
+            Console.WriteLine("\n");
+
+            eliminarLES(lista1, 1);
+
+            Console.Read();
         }
 
 
         public static void eliminarLES(nodo lista, int n) {
             nodo actual, aux;
-            int cont = 0;
+            int cont = 1;
 
             actual = lista;
 
@@ -57,6 +69,16 @@ namespace ProyectoVictoria
                     actual = actual.sig;
                 }
                 
+            }
+
+
+
+            // Imprimir lista
+            aux = lista;
+            while (aux != null)
+            {
+                Console.WriteLine(aux.dato);
+                aux = aux.sig;
             }
 
         }
