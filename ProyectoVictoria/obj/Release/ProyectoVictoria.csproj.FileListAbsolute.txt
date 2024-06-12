@@ -1,0 +1,5 @@
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Release\ProyectoVictoria.exe.config
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Release\ProyectoVictoria.exe
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Release\ProyectoVictoria.pdb
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Release\ProyectoVictoria.exe
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Release\ProyectoVictoria.pdb

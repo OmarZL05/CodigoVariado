@@ -1,0 +1,8 @@
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Debug\ProyectoVictoria.csprojResolveAssemblyReference.cache
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Debug\ProyectoVictoria.csproj.GenerateResource.Cache
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Debug\ProyectoVictoria.exe.config
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Debug\ProyectoVictoria.exe
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\bin\Debug\ProyectoVictoria.pdb
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Debug\ProyectoVictoria.Properties.Resources.resources
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Debug\ProyectoVictoria.exe
+C:\Users\OmarZ\Documents\Visual Studio 2012\Projects\ProyectoVictoria\ProyectoVictoria\obj\Debug\ProyectoVictoria.pdb
