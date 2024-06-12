@@ -61,6 +61,30 @@ namespace ProyectoVictoria
 
         }
 
+        public static void verificarIgualdad(nodo lista1, nodo lista2)
+        {
+            bool igual = true;
+            while (lista1 != null && lista2 != null && igual)
+            {
+                if (lista1.dato != lista2.dato)
+                {
+                    igual = false;
+                }
+                lista1 = lista1.sig;
+                lista2 = lista2.sig;
+            }
+
+            if (igual)
+            {
+                Console.WriteLine("Son iguales");
+            }
+            else
+            {
+                Console.WriteLine("No son iguales");
+            }
+        }
+
+
     }
 
 
