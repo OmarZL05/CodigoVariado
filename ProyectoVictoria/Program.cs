@@ -29,7 +29,13 @@ namespace ProyectoVictoria
             nodo lista1 = new nodo(1, lista2);
             nodo lista = new nodo(lista1);
 
-            
+            nodo listaB6 = new nodo(6, null);
+            nodo listaB5 = new nodo(5, listaB6);
+            nodo listaB4 = new nodo(4, listaB5);
+            nodo listaB3 = new nodo(3, listaB4);
+            nodo listaB2 = new nodo(2, listaB3);
+            nodo listaB1 = new nodo(1, listaB2);
+            nodo listaB = new nodo(listaB1);
 
             nodo aux = lista;
             Console.Write("Lista: ");
@@ -40,7 +46,9 @@ namespace ProyectoVictoria
             }
             Console.WriteLine("\n");
 
-            eliminarLES(lista1, 1);
+            //eliminarLES(lista1, 4);
+
+            verificarIgualdad(lista, listaB);
 
             Console.Read();
         }
@@ -88,10 +96,15 @@ namespace ProyectoVictoria
             bool igual = true;
             while (lista1 != null && lista2 != null && igual)
             {
-                if (lista1.dato != lista2.dato)
+                if ( (lista1.dato == lista2.dato) && (lista1.sig != null && lista2.sig != null) || (lista1.sig == null && lista2.sig == null))
+                {
+                    igual = true;
+                }
+                else
                 {
                     igual = false;
                 }
+
                 lista1 = lista1.sig;
                 lista2 = lista2.sig;
             }
